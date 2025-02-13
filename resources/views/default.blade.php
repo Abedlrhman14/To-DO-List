@@ -12,8 +12,9 @@
     @yield('content')
 
 
-    @include('include.footer ')
+
    </div>
+   @include('include.footer')
     <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
   </body>
 </html>
